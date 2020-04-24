@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Simple Calculato</title>
+    <style type="text/css">
+        *  {
+            margin: 0;
+            }
+
+        body {
+            margin: 30px;
+            color: white;
+            text-align: center;
+            background: #3C3B3F;
+            background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+            background: linear-gradient(to right, #605C3C, #3C3B3F);
+        }
+
+        form {
+            width: auto;
+            padding: 30px;
+            margin-top: 20px;
+            background-color: black;
+            display: inline-block;
+            height: auto;
+            box-shadow: 0px 0px 6px 0px white;
+        }
+
+        form input{
+            margin: 10px;
+            padding: 10px;
+            height: 20px;
+            font-family: sans-serif;
+            font-size: 20px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        form input[type=number]{
+            margin: 2px;
+            font-size: 20px;
+            padding-left: 20px;
+            height: 30px;
+            width: 30px;
+            text-align: center;
+            border-radius: 20px;
+            border: 2px solid brown;
+            cursor:pointer;
+        }
+
+        #result {
+            font-size: 30px;
+            padding-left: 20px;
+            height: auto;
+            width: auto;
+            text-align: center;
+            border-radius: 20px;
+        }
+
+        .download {
+            padding: 10px;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .download a {
+            text-decoration: none;
+            color: brown;
+            background-color: floralwhite;
+            padding: 5px;
+            border-radius: 10px;
+            border-radius: 0px 0px 22px 0px black;
+        }
+
+    </style>
+    <script src="buildCalculator.js"></script>
+    </head>
+<body>
+
+    <h1 style="margin-top: 100px;padding: 10px;">Simple Calculator</h1>
+    <hr>
+    <p style="margin-top:20px;">JavaScript program to calculate PAMDAS and Square of two numbers </p>
+
+    <form>
+        <input type="text" id="firstNumber" placeholder="Enter X Number" >
+        <input type="text" id="secondNumber" placeholder="Enter Y Number">
+        <br><br>
+        <input type="number" onClick="divisionBy()" placeholder="÷" / readonly>
+        <input type="number" onClick="multiplyBy()" placeholder="x" /  readonly><br>
+        <input type="number" onClick="subtractionBy()" placeholder="-" / readonly>
+        <input type="number" onClick="sumBy()" placeholder="+" / readonly><br>
+        <input type="number" onClick="square1By()" placeholder="x²" / readonly>
+        <input type="number" onClick="square2By()" placeholder="y²" / readonly><br><br><hr><br>
+        <span type="text" id="result" >Result Here</span>
+     </form>
+
+    <div class="download">
+    <a href="https://github.com/jaffery97/ppwebpage/archive/master.zip">Download Demo</a> or <a href="https://github.com/jaffery97/calculator2/network/members">Fork on github</a> </div>
+
+</body>
+</html>
