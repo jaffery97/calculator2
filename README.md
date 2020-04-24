@@ -1,4 +1,4 @@
-# JavaScript program to calculate PAMDAS and Square of two numbers
+## JavaScript program to calculate PAMDAS and Square of two numbers
 
 #### The program will help user to calculate PANDAS and Square of two numbers by each button of operations.
 
@@ -7,7 +7,7 @@
 [Go here](https://www.youtube.com/channel/UCD8nhbxPg4DT0vqRxxpK6Kw/)
 
 ## Demo
-[Click Here](https://jaffery97.github.com/calculator2) 
+[Click Here](https://jaffery97.github.io/calculator2/) 
 
 ### Download
 If you like to get the source code [Go Download](https://github.com/jaffery97/calculator2/archive/master.zip)
